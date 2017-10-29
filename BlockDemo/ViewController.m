@@ -47,8 +47,6 @@
         manager.add(5).add(10).add(20);
     }];
     NSLog(@"%d",sum);
-    
-    //利用函数式响应式的编程思想改进KVO
 }
 
 
