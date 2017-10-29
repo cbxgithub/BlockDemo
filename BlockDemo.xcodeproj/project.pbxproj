@@ -14,6 +14,8 @@
 		FCA2DAED1FA5BD60008A2015 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA2DAEB1FA5BD60008A2015 /* LaunchScreen.storyboard */; };
 		FCA2DAF01FA5BD60008A2015 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA2DAEF1FA5BD60008A2015 /* main.m */; };
 		FCA2DAF81FA5C338008A2015 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA2DAF71FA5C338008A2015 /* Person.m */; };
+		FCA2DAFB1FA5F963008A2015 /* NSObject+Sum.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA2DAFA1FA5F963008A2015 /* NSObject+Sum.m */; };
+		FCA2DAFE1FA5F9B4008A2015 /* SumManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA2DAFD1FA5F9B4008A2015 /* SumManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		FCA2DAEF1FA5BD60008A2015 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FCA2DAF61FA5C338008A2015 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		FCA2DAF71FA5C338008A2015 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		FCA2DAF91FA5F963008A2015 /* NSObject+Sum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Sum.h"; sourceTree = "<group>"; };
+		FCA2DAFA1FA5F963008A2015 /* NSObject+Sum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Sum.m"; sourceTree = "<group>"; };
+		FCA2DAFC1FA5F9B4008A2015 /* SumManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SumManager.h; sourceTree = "<group>"; };
+		FCA2DAFD1FA5F9B4008A2015 /* SumManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SumManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,10 @@
 				FCA2DAEB1FA5BD60008A2015 /* LaunchScreen.storyboard */,
 				FCA2DAEE1FA5BD60008A2015 /* Info.plist */,
 				FCA2DAEF1FA5BD60008A2015 /* main.m */,
+				FCA2DAF91FA5F963008A2015 /* NSObject+Sum.h */,
+				FCA2DAFA1FA5F963008A2015 /* NSObject+Sum.m */,
+				FCA2DAFC1FA5F9B4008A2015 /* SumManager.h */,
+				FCA2DAFD1FA5F9B4008A2015 /* SumManager.m */,
 			);
 			path = BlockDemo;
 			sourceTree = "<group>";
@@ -148,7 +158,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCA2DAE51FA5BD60008A2015 /* ViewController.m in Sources */,
+				FCA2DAFE1FA5F9B4008A2015 /* SumManager.m in Sources */,
 				FCA2DAF01FA5BD60008A2015 /* main.m in Sources */,
+				FCA2DAFB1FA5F963008A2015 /* NSObject+Sum.m in Sources */,
 				FCA2DAF81FA5C338008A2015 /* Person.m in Sources */,
 				FCA2DAE21FA5BD60008A2015 /* AppDelegate.m in Sources */,
 			);

@@ -10,4 +10,23 @@
 
 @implementation Person
 
+- (void)eatWith:(void (^)(void))block {
+    block();
+}
+
+- (void(^)(int i))run {
+    
+    return ^(int i){
+        NSLog(@"我走了%d米",i);
+    };
+}
+
+- (Person *(^)(NSString *))travel {
+    
+    return ^(NSString *city){
+        NSLog(@"我去了%@",city);
+        return self;
+    };
+}
+
 @end
