@@ -13,6 +13,7 @@
 		FCA2DAEA1FA5BD60008A2015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCA2DAE91FA5BD60008A2015 /* Assets.xcassets */; };
 		FCA2DAED1FA5BD60008A2015 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA2DAEB1FA5BD60008A2015 /* LaunchScreen.storyboard */; };
 		FCA2DAF01FA5BD60008A2015 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA2DAEF1FA5BD60008A2015 /* main.m */; };
+		FCA2DAF81FA5C338008A2015 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA2DAF71FA5C338008A2015 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		FCA2DAEC1FA5BD60008A2015 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCA2DAEE1FA5BD60008A2015 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCA2DAEF1FA5BD60008A2015 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCA2DAF61FA5C338008A2015 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		FCA2DAF71FA5C338008A2015 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 			children = (
 				FCA2DAE01FA5BD60008A2015 /* AppDelegate.h */,
 				FCA2DAE11FA5BD60008A2015 /* AppDelegate.m */,
+				FCA2DAF61FA5C338008A2015 /* Person.h */,
+				FCA2DAF71FA5C338008A2015 /* Person.m */,
 				FCA2DAE31FA5BD60008A2015 /* ViewController.h */,
 				FCA2DAE41FA5BD60008A2015 /* ViewController.m */,
 				FCA2DAE61FA5BD60008A2015 /* Main.storyboard */,
@@ -144,6 +149,7 @@
 			files = (
 				FCA2DAE51FA5BD60008A2015 /* ViewController.m in Sources */,
 				FCA2DAF01FA5BD60008A2015 /* main.m in Sources */,
+				FCA2DAF81FA5C338008A2015 /* Person.m in Sources */,
 				FCA2DAE21FA5BD60008A2015 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
